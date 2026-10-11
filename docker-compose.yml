@@ -1,0 +1,8 @@
+services:
+  app:
+    build:
+      context: ./docker
+      dockerfile: Dockerfile
+    image: lab3
+    stdin_open: true
+    tty: true
